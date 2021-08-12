@@ -1,1 +1,31 @@
 /* No CSS *//*# sourceMappingURL=styles.css.map */
+
+.main-logo{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.location{
+    display: block;
+    text-align: center;
+}
+
+.presentation{
+  display: block;
+  text-align: center;
+}
+
+.nav{
+    display: block;
+    text-align: center;
+}
+
+.food-pictures{
+    width: 100%;
+    margin: auto;
+}
+
+.footer-logo{
+    width: 30%;
+}

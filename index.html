@@ -4,18 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Oh my food !</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="public/CSS/styles.css">
+        <link rel="stylesheet" href="public/CSS/styles.scss">
         <script src="script.js"></script>
     </head>
     <body>
         <header>
             <div>
-                <img src="image/logo/ohmyfood.png" alt="Logo du site">
+                <img src="image/logo/ohmyfood.png" alt="Logo du site" class="main-logo">
             </div>
             <div class="location">
                 <span>Paris, Belleville</span>
             </div>
-            <div>
+            <div class="presentation">
                 <h1>Réservez le menu qui vous convient</h1>
                 <h2>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h2>
                 <span>Explorer nos restaurants</span>
@@ -23,32 +24,34 @@
         </header>
         <nav>
             <h1>Fonctionnement</h1>
-            <ul>
-                <li>Choisissez un restaurant</li>
-                <li>Composez votre menu</li>
-                <li>Dégustez au restaurant</li>
-            </ul>
+            <div class="nav">
+                <ul>
+                    <li>Choisissez un restaurant</li>
+                    <li>Composez votre menu</li>
+                    <li>Dégustez au restaurant</li>
+                </ul>
+            </div>
         </nav>
         <section>
             <h1>Restaurants</h1>
             <div>
                 <div>
-                    <img src="image/photo/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
+                    <img src="image/photo/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="first-pictures food-pictures">
                     <h3>La palette du goût</h3>
                     <span>Ménilmontant</span>
                 </div>
                 <div>
-                    <img src="image/photo/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
+                    <img src="image/photo/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="second-pictures food-pictures">
                     <h3>La note enchantée</h3>
                     <span>Charonne</span>
                 </div>
                 <div>
-                    <img src="image/photo/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française">
+                    <img src="image/photo/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française" class="third-pictures food-pictures">
                     <h3>A la française</h3>
                     <span>Cité Rouge</span>
                 </div>
                 <div>
-                    <img src="image/photo/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
+                    <img src="image/photo/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="fourth-pictures food-pictures">
                     <h3>Le délice des sens</h3>
                     <span>Folie-Méricourt</span>
                 </div>
@@ -56,7 +59,7 @@
         </section>
         <footer>
             <div>
-                <img src="image/logo/ohmyfood.png" alt="Logo footer">
+                <img src="image/logo/ohmyfood.png" alt="Logo footer" class="footer-logo">
                 <ul>
                     <li>Proposer un restaurant</li>
                     <li>Devenir partenaire</li>
