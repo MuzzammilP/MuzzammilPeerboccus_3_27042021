@@ -14,14 +14,14 @@ $color-dark: #353535;
 .location {
 	display: block;
 	text-align: center;
-	background-color: #ededed;
+	background-color: $color-dark-grey;
 }
 
 .presentation {
 	display: block;
 	text-align: center;
 	margin-bottom: 35px;
-	background-color: #f7f7f7;
+	background-color: $color-light-grey;
 }
 
 .nav {
@@ -30,12 +30,12 @@ $color-dark: #353535;
 }
 
 .nav-form {
-	background-color: #f7f7f7;
+	background-color: $color-light-grey;
 	margin-bottom: 14px;
 }
 
 .restaurant {
-	background-color: #ededed;
+	background-color: $color-dark-grey;
 }
 
 .restaurant-pictures {
@@ -44,7 +44,7 @@ $color-dark: #353535;
 	object-fit: cover;
 }
 .footer {
-	background-color: #353535;
+	background-color: $color-dark;
 	color: white;
 }
 .footer-logo {
