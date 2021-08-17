@@ -5,6 +5,16 @@ $color-light-grey: #f7f7f7;
 $color-dark-grey: #ededed;
 $color-dark: #353535;
 
+@font-face {
+	font-family: "Shrikhand";
+	src: url("../Police/Shrikhand-Regular.otf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../Police/Roboto-Bold.ttf");
+}
+
 .logo {
 	margin-bottom: 20px;
 }
@@ -19,7 +29,10 @@ $color-dark: #353535;
 	display: block;
 	text-align: center;
 	background-color: $color-dark-grey;
-	padding: 17px;
+
+	.fa-map-marker-alt {
+		padding: 18px;
+	}
 }
 
 .presentation {
@@ -27,6 +40,15 @@ $color-dark: #353535;
 	text-align: center;
 	margin-bottom: 35px;
 	background-color: $color-light-grey;
+	padding: 26px 35px 50px;
+}
+
+.h1 {
+	font-size: 29px;
+}
+
+.h2 {
+	font-size: 10px;
 }
 
 .nav {
