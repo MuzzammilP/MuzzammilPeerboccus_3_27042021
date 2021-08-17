@@ -1,3 +1,7 @@
+.logo {
+  margin-bottom: 20px;
+}
+
 .main-logo {
   width: 60%;
   display: block;
@@ -8,6 +12,7 @@
   display: block;
   text-align: center;
   background-color: #ededed;
+  padding: 17px;
 }
 
 .presentation {

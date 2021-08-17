@@ -5,6 +5,10 @@ $color-light-grey: #f7f7f7;
 $color-dark-grey: #ededed;
 $color-dark: #353535;
 
+.logo {
+	margin-bottom: 20px;
+}
+
 .main-logo {
 	width: 60%;
 	display: block;
@@ -15,6 +19,7 @@ $color-dark: #353535;
 	display: block;
 	text-align: center;
 	background-color: $color-dark-grey;
+	padding: 17px;
 }
 
 .presentation {
