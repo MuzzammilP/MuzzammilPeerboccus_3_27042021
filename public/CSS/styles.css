@@ -78,28 +78,35 @@
 }
 
 .navi .navi-form .fa-mobile-alt {
-  margin-left: -19%;
-  margin-right: 18%;
+  margin-left: -20%;
+  margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
 .navi .navi-form .fa-list-ul {
-  margin-left: -19%;
-  margin-right: 18%;
+  margin-left: -20%;
+  margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
 .navi .navi-form .fa-store {
-  margin-left: -19%;
-  margin-right: 18%;
+  margin-left: -20%;
+  margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
 .restaurant {
   background-color: #ededed;
+  margin-top: 65px;
+}
+
+.restaurant .restaurant-title {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 15px;
 }
 
 .restaurant .restaurant-pictures {

@@ -80,22 +80,22 @@ $color-dark: #353535;
 		box-shadow: 2px 2px 8px lightgrey;
 
 		.fa-mobile-alt {
-			margin-left: -19%;
-			margin-right: 18%;
+			margin-left: -20%;
+			margin-right: 10%;
 			font-size: 21px;
 			color: grey;
 		}
 
 		.fa-list-ul {
-			margin-left: -19%;
-			margin-right: 18%;
+			margin-left: -20%;
+			margin-right: 10%;
 			font-size: 21px;
 			color: grey;
 		}
 
 		.fa-store {
-			margin-left: -19%;
-			margin-right: 18%;
+			margin-left: -20%;
+			margin-right: 10%;
 			font-size: 21px;
 			color: grey;
 		}
@@ -104,6 +104,13 @@ $color-dark: #353535;
 
 .restaurant {
 	background-color: $color-dark-grey;
+	margin-top: 65px;
+
+	.restaurant-title {
+		padding-top: 50px;
+		margin-bottom: 30px;
+		margin-left: 15px;
+	}
 
 	.restaurant-pictures {
 		width: 100%;
