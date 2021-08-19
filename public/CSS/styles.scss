@@ -105,6 +105,7 @@ $color-dark: #353535;
 .restaurant {
 	background-color: $color-dark-grey;
 	margin-top: 65px;
+	padding-bottom: 29px;
 
 	.restaurant-title {
 		padding-top: 50px;
@@ -125,6 +126,13 @@ $color-dark: #353535;
 
 		&_main {
 			margin-left: 20px;
+			display: flex;
+			justify-content: space-between;
+
+			.fa-heart {
+				margin-right: 30px;
+				font-size: 29px;
+			}
 		}
 
 		&_title {
@@ -147,8 +155,19 @@ $color-dark: #353535;
 .footer {
 	background-color: $color-dark;
 	color: white;
+	padding-top: 31px;
+	padding-bottom: 48px;
+
+	&-list {
+		list-style: none;
+
+		&_style {
+			margin-bottom: 10px;
+		}
+	}
 
 	.footer-logo {
 		width: 30%;
+		margin-left: 20px;
 	}
 }

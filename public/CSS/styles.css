@@ -101,6 +101,7 @@
 .restaurant {
   background-color: #ededed;
   margin-top: 65px;
+  padding-bottom: 29px;
 }
 
 .restaurant .restaurant-title {
@@ -124,6 +125,17 @@
 
 .restaurant-block_main {
   margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurant-block_main .fa-heart {
+  margin-right: 30px;
+  font-size: 29px;
 }
 
 .restaurant-block_title {
@@ -146,9 +158,20 @@
 .footer {
   background-color: #353535;
   color: white;
+  padding-top: 31px;
+  padding-bottom: 48px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list_style {
+  margin-bottom: 10px;
 }
 
 .footer .footer-logo {
   width: 30%;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
