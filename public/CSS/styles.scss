@@ -112,10 +112,36 @@ $color-dark: #353535;
 		margin-left: 15px;
 	}
 
-	.restaurant-pictures {
-		width: 100%;
-		margin: auto;
-		object-fit: cover;
+	&-block {
+		background-color: white;
+		margin-bottom: 40px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		box-shadow: 2px 2px 8px lightgrey;
+		width: 93%;
+		margin-left: 15px;
+
+		&_main {
+			margin-left: 20px;
+		}
+
+		&_title {
+			margin-left: 20px;
+		}
+
+		.restaurant-pictures {
+			width: 100%;
+			margin: auto;
+			object-fit: cover;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+
+		.restaurant-pictures_height {
+			height: 254px;
+		}
 	}
 }
 .footer {
