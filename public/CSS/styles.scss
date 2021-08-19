@@ -163,11 +163,20 @@ $color-dark: #353535;
 
 		&_style {
 			margin-bottom: 10px;
+
+			.fa-utensils {
+				margin-right: 17px;
+			}
+
+			.fa-hands-helping {
+				margin-right: 9px;
+			}
 		}
 	}
 
 	.footer-logo {
 		width: 30%;
 		margin-left: 20px;
+		filter: invert(1);
 	}
 }

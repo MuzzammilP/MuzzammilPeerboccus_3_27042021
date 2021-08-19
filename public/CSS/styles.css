@@ -170,8 +170,18 @@
   margin-bottom: 10px;
 }
 
+.footer-list_style .fa-utensils {
+  margin-right: 17px;
+}
+
+.footer-list_style .fa-hands-helping {
+  margin-right: 9px;
+}
+
 .footer .footer-logo {
   width: 30%;
   margin-left: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 /*# sourceMappingURL=styles.css.map */
