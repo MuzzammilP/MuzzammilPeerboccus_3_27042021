@@ -79,24 +79,37 @@
   -webkit-box-shadow: 2px 2px 8px lightgrey;
           box-shadow: 2px 2px 8px lightgrey;
   font-family: "Roboto", sans-serif;
+  list-style: none;
+  margin-right: 16px;
+}
+
+.navi .navi-form_number {
+  position: absolute;
+  left: 8%;
+  background-color: #9356dc;
+  color: white;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  font-size: 13px;
 }
 
 .navi .navi-form .fa-mobile-alt {
-  margin-left: -20%;
+  margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
 .navi .navi-form .fa-list-ul {
-  margin-left: -20%;
+  margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
 .navi .navi-form .fa-store {
-  margin-left: -20%;
+  margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
   color: grey;
@@ -124,8 +137,9 @@
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 2px 2px 8px lightgrey;
           box-shadow: 2px 2px 8px lightgrey;
-  width: 93%;
-  margin-left: 15px;
+  width: 91%;
+  margin-left: 17px;
+  padding-bottom: 15px;
 }
 
 .restaurant-block_main {
@@ -137,6 +151,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
 }
 
 .restaurant-block_main .fa-heart {
@@ -151,15 +166,12 @@
 
 .restaurant-block .restaurant-pictures {
   width: 100%;
+  height: 170px;
   margin: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.restaurant-block .restaurant-pictures_height {
-  height: 254px;
 }
 
 .footer {
