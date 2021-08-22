@@ -1,19 +1,17 @@
-@font-face {
-  font-family: "Shrikhand";
-  src: url("../Police/Shrikhand-Regular.otf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("/Users/muzzammilpeerboccus/Documents/ProjetOpenClassrooms/Projet_3_Ohmyfood!/Police/Roboto-Bold.ttf");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto2:wght@100&display=swap");
+.margin-body {
+  margin: 0px;
 }
 
 .logo {
   margin-top: 20px;
   margin-bottom: 2px;
   padding-bottom: 15px;
-  -webkit-box-shadow: 0px 2px 4px grey;
-          box-shadow: 0px 2px 4px grey;
+  padding-top: 22px;
+  margin-top: 0px;
+  -webkit-box-shadow: 0px 2px 4px lightgrey;
+          box-shadow: 0px 2px 4px lightgrey;
 }
 
 .logo .main-logo {
@@ -26,6 +24,7 @@
   display: block;
   text-align: center;
   background-color: #ededed;
+  font-family: "Roboto", sans-serif;
 }
 
 .location .fa-map-marker-alt {
@@ -40,7 +39,7 @@
   padding: 26px 35px 50px;
 }
 
-.presentation .presentation-btn {
+.presentation-btn {
   padding: 19px;
   font-size: 17px;
   border-radius: 28px;
@@ -50,17 +49,21 @@
   color: white;
 }
 
-.presentation .h1 {
+.presentation-title {
+  font-family: "Roboto", sans-serif;
   font-size: 29px;
 }
 
-.presentation .h2 {
-  font-size: 10px;
+.presentation .presentation-title2 {
+  font-size: 18px;
+  font-family: "Roboto2", sans-serif;
+  color: grey;
 }
 
 .second-title {
   margin-bottom: 30px;
   margin-left: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 .navi {
@@ -75,6 +78,7 @@
   border-radius: 15px;
   -webkit-box-shadow: 2px 2px 8px lightgrey;
           box-shadow: 2px 2px 8px lightgrey;
+  font-family: "Roboto", sans-serif;
 }
 
 .navi .navi-form .fa-mobile-alt {
@@ -108,6 +112,7 @@
   padding-top: 50px;
   margin-bottom: 30px;
   margin-left: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 .restaurant-block {
@@ -131,6 +136,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-family: "Roboto", sans-serif;
 }
 
 .restaurant-block_main .fa-heart {
@@ -140,6 +146,7 @@
 
 .restaurant-block_title {
   margin-left: 20px;
+  font-family: "Roboto2", sans-serif;
 }
 
 .restaurant-block .restaurant-pictures {
@@ -168,6 +175,7 @@
 
 .footer-list_style {
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-list_style .fa-utensils {
