@@ -145,6 +145,18 @@ $color-dark: #353535;
 		margin-left: 17px;
 		padding-bottom: 15px;
 
+		&_news {
+			position: absolute;
+			right: 9%;
+			margin-top: 13px;
+			background-color: $color-green;
+			padding: 5px;
+			border-radius: 2px;
+			font-family: "Roboto", sans-serif;
+			font-size: 14px;
+			color: #249c7f;
+		}
+
 		&_main {
 			margin-left: 20px;
 			display: flex;
