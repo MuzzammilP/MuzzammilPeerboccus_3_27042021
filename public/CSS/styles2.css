@@ -14,7 +14,7 @@
 }
 
 .logo .main-logo {
-  width: 60%;
+  width: 52%;
   display: block;
   margin: auto;
 }
@@ -32,14 +32,29 @@
 
 .menu-title {
   font-family: "Shrikhand", cursive;
-  font-size: 30px;
+  font-size: 27px;
   margin-left: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 86%;
+}
+
+.menu-title .fa-heart {
+  font-size: 24px;
 }
 
 .menu-section {
   font-family: "Roboto2", sans-serif;
   margin-left: 22px;
   font-size: 17px;
+  border-bottom-style: solid;
+  width: 12%;
+  border-bottom-color: #99e2d0;
+  padding-bottom: 4px;
 }
 
 .menu-block {
@@ -63,5 +78,63 @@
   padding-bottom: 14px;
   font-family: "Roboto2", sans-serif;
   margin-top: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 91%;
+}
+
+.menu-block_title2 .title-bold {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 28px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  width: 44%;
+  margin-top: 28px;
+  margin-left: 28%;
+  margin-bottom: 20%;
+  -webkit-box-shadow: 2px 2px 30px lightgrey;
+          box-shadow: 2px 2px 30px lightgrey;
+}
+
+.footer {
+  background-color: #353535;
+  color: white;
+  padding-top: 31px;
+  padding-bottom: 48px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list_style {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-list_style .fa-utensils {
+  margin-right: 17px;
+}
+
+.footer-list_style .fa-hands-helping {
+  margin-right: 9px;
+}
+
+.footer .footer-logo {
+  width: 30%;
+  margin-left: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 /*# sourceMappingURL=styles2.css.map */

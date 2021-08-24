@@ -23,7 +23,7 @@ $color-dark: #353535;
 	margin-top: 0px;
 
 	.main-logo {
-		width: 60%;
+		width: 52%;
 		display: block;
 		margin: auto;
 	}
@@ -41,14 +41,25 @@ $color-dark: #353535;
 
 	&-title {
 		font-family: "Shrikhand", cursive;
-		font-size: 30px;
+		font-size: 27px;
 		margin-left: 22px;
+		display: flex;
+		justify-content: space-between;
+		width: 86%;
+
+		.fa-heart {
+			font-size: 24px;
+		}
 	}
 
 	&-section {
 		font-family: "Roboto2", sans-serif;
 		margin-left: 22px;
 		font-size: 17px;
+		border-bottom-style: solid;
+		width: 12%;
+		border-bottom-color: $color-green;
+		padding-bottom: 4px;
 	}
 
 	&-block {
@@ -70,6 +81,57 @@ $color-dark: #353535;
 			padding-bottom: 14px;
 			font-family: "Roboto2", sans-serif;
 			margin-top: -12px;
+			display: flex;
+			justify-content: space-between;
+			width: 91%;
+
+			.title-bold {
+				font-family: "Roboto", sans-serif;
+			}
 		}
+	}
+}
+
+.btn {
+	padding: 14px;
+	font-size: 16px;
+	border-radius: 28px;
+	border: none;
+	background: linear-gradient($color-pink, $color-pruple);
+	color: white;
+	width: 44%;
+	margin-top: 28px;
+	margin-left: 28%;
+	margin-bottom: 20%;
+	box-shadow: 2px 2px 30px lightgrey;
+}
+
+.footer {
+	background-color: $color-dark;
+	color: white;
+	padding-top: 31px;
+	padding-bottom: 48px;
+
+	&-list {
+		list-style: none;
+
+		&_style {
+			margin-bottom: 10px;
+			font-family: "Roboto", sans-serif;
+
+			.fa-utensils {
+				margin-right: 17px;
+			}
+
+			.fa-hands-helping {
+				margin-right: 9px;
+			}
+		}
+	}
+
+	.footer-logo {
+		width: 30%;
+		margin-left: 20px;
+		filter: invert(1);
 	}
 }
