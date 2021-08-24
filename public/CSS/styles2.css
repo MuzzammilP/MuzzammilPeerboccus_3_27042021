@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto2:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.margin-body {
+  margin: 0px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 2px;
+  padding-bottom: 15px;
+  padding-top: 22px;
+  margin-top: 0px;
+}
+
+.logo .main-logo {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.only-picture {
+  width: 100%;
+}
+
+.menu {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.menu-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
+  margin-left: 22px;
+}
+
+.menu-section {
+  font-family: "Roboto2", sans-serif;
+  margin-left: 22px;
+  font-size: 17px;
+}
+
+.menu-block {
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 30px lightgrey;
+          box-shadow: 2px 2px 30px lightgrey;
+  width: 92%;
+  margin-left: 15px;
+}
+
+.menu-block_title {
+  font-size: 18px;
+  padding-top: 13px;
+  margin-left: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-block_title2 {
+  margin-left: 12px;
+  font-size: 15px;
+  padding-bottom: 14px;
+  font-family: "Roboto2", sans-serif;
+  margin-top: -12px;
+}
+/*# sourceMappingURL=styles2.css.map */
