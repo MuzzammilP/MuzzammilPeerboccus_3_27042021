@@ -214,3 +214,9 @@ $color-dark: #353535;
 		filter: invert(1);
 	}
 }
+
+@media screen and (min-width: 768px) {
+	.restaurant-block {
+		display: flex;
+	}
+}
