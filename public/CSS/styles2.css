@@ -21,6 +21,7 @@
 
 .only-picture {
   width: 100%;
+  height: 280px;
 }
 
 .menu {
@@ -28,6 +29,9 @@
   padding-top: 20px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  position: relative;
+  top: -59px;
+  margin-bottom: -60px;
 }
 
 .menu-title {
