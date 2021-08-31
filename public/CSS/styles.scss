@@ -216,7 +216,12 @@ $color-dark: #353535;
 }
 
 @media screen and (min-width: 768px) {
-	.restaurant-block {
+	.restaurant-allblock {
 		display: flex;
+		flex-wrap: wrap;
+
+		.restaurant-block {
+			width: 47%;
+		}
 	}
 }
