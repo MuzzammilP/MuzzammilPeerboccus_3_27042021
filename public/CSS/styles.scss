@@ -67,6 +67,11 @@ $color-dark: #353535;
 	}
 }
 
+.navigateur {
+	max-width: 1024px;
+	margin: auto;
+}
+
 .second-title {
 	margin-bottom: 30px;
 	margin-left: 15px;
@@ -125,6 +130,8 @@ $color-dark: #353535;
 	background-color: $color-dark-grey;
 	margin-top: 65px;
 	padding-bottom: 29px;
+	max-width: 1024px;
+	margin: auto;
 
 	.restaurant-title {
 		padding-top: 50px;
@@ -222,6 +229,53 @@ $color-dark: #353535;
 
 		.restaurant-block {
 			width: 47%;
+
+			&_news {
+				margin-left: 36%;
+				right: auto;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.logo {
+		.main-logo {
+			width: 20%;
+			margin-left: 20px;
+		}
+	}
+
+	.navi-list {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.navi {
+		.navi-form {
+			width: 100%;
+			margin-right: 47px;
+		}
+		.navi-form_number {
+			font-size: 18px;
+			left: auto;
+			margin-left: -62px;
+			height: 23px;
+			width: 23px;
+		}
+	}
+
+	.restaurant-block {
+		margin-left: 21px;
+
+		.restaurant-block_news {
+			margin-left: 393px;
+		}
+	}
+
+	.footer {
+		.footer-logo {
+			width: 20%;
 		}
 	}
 }
