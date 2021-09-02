@@ -13,6 +13,13 @@
   margin-top: 0px;
 }
 
+.logo .fa-arrow-left {
+  font-size: 30px;
+  position: absolute;
+  left: 4%;
+  top: 3%;
+}
+
 .logo .main-logo {
   width: 52%;
   display: block;
@@ -149,6 +156,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .logo .fa-arrow-left {
+    font-size: 35px;
+    top: 6%;
+  }
   .only-picture {
     height: 500px;
   }
@@ -157,6 +168,10 @@
 @media screen and (min-width: 1024px) {
   .margin-body {
     background-color: #f7f7f7;
+  }
+  .logo .fa-arrow-left {
+    font-size: 40px;
+    top: 3%;
   }
   .logo .main-logo {
     width: 20%;
