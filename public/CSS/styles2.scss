@@ -48,7 +48,6 @@ $color-dark: #353535;
 	top: -59px;
 	margin-bottom: -60px;
 	max-width: 1024px;
-	margin: auto;
 
 	&-title {
 		font-family: "Shrikhand", cursive;
@@ -146,7 +145,11 @@ $color-dark: #353535;
 		filter: invert(1);
 	}
 }
-
+@media screen and (min-width: 768px) {
+	.only-picture {
+		height: 500px;
+	}
+}
 @media screen and (min-width: 1024px) {
 	.margin-body {
 		background-color: #f7f7f7;
@@ -159,13 +162,14 @@ $color-dark: #353535;
 	}
 
 	.only-picture {
-		height: 100%;
+		height: 700px;
 		border-top-left-radius: 50px;
 		border-top-right-radius: 50px;
 	}
 
 	.menu {
 		top: -50px;
+		margin: auto;
 
 		.menu-title {
 			font-size: 45px;
