@@ -146,16 +146,29 @@
   .logo .main-logo {
     width: 20%;
   }
-  .menu-title {
+  .only-picture {
+    height: 100%;
+  }
+  .menu {
+    top: -50px;
+  }
+  .menu .menu-title {
     font-size: 45px;
   }
-  .menu-title .fa-heart {
+  .menu .menu-title .fa-heart {
     font-size: 45px;
   }
-  .menu-first {
+  .menu-section_form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .menu-section_form .menu-block {
+    width: 31%;
+  }
+  .btn {
+    margin-top: 9%;
+    margin-bottom: 9%;
   }
 }
 /*# sourceMappingURL=styles2.css.map */

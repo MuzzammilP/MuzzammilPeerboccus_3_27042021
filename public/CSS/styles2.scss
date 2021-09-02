@@ -147,11 +147,32 @@ $color-dark: #353535;
 		}
 	}
 
-	.menu-title {
-		font-size: 45px;
+	.only-picture {
+		height: 100%;
+	}
 
-		.fa-heart {
+	.menu {
+		top: -50px;
+
+		.menu-title {
 			font-size: 45px;
+
+			.fa-heart {
+				font-size: 45px;
+			}
 		}
+	}
+
+	.menu-section_form {
+		display: flex;
+
+		.menu-block {
+			width: 31%;
+		}
+	}
+
+	.btn {
+		margin-top: 9%;
+		margin-bottom: 9%;
 	}
 }
