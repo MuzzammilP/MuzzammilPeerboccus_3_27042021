@@ -19,6 +19,11 @@
   margin: auto;
 }
 
+.menu-photo {
+  max-width: 1024px;
+  margin: auto;
+}
+
 .only-picture {
   width: 100%;
   height: 280px;
@@ -32,6 +37,8 @@
   position: relative;
   top: -59px;
   margin-bottom: -60px;
+  max-width: 1024px;
+  margin: auto;
 }
 
 .menu-title {
@@ -143,11 +150,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .margin-body {
+    background-color: #f7f7f7;
+  }
   .logo .main-logo {
     width: 20%;
   }
   .only-picture {
     height: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
   }
   .menu {
     top: -50px;
