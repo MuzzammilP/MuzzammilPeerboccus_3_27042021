@@ -18,8 +18,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-animation: spin 1s linear 6;
-          animation: spin 1s linear 6;
+  -webkit-animation: spin 1s linear 3;
+          animation: spin 1s linear 3;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   opacity: 0;
@@ -108,6 +108,10 @@
   color: white;
 }
 
+.presentation-btn:hover {
+  opacity: 0.8;
+}
+
 .presentation-title {
   font-family: "Roboto", sans-serif;
   font-size: 29px;
@@ -145,6 +149,12 @@
   font-family: "Roboto", sans-serif;
   list-style: none;
   margin-right: 16px;
+}
+
+.navi .navi-form:hover {
+  opacity: 0.7;
+  -webkit-box-shadow: 2px 2px 8px grey;
+          box-shadow: 2px 2px 8px grey;
 }
 
 .navi .navi-form_number {
@@ -206,6 +216,12 @@
   width: 91%;
   margin-left: 17px;
   padding-bottom: 15px;
+}
+
+.restaurant-block:hover {
+  opacity: 0.7;
+  -webkit-box-shadow: 2px 2px 8px grey;
+          box-shadow: 2px 2px 8px grey;
 }
 
 .restaurant-block_link {
