@@ -18,23 +18,28 @@
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear 6;
+          animation: spin 1s linear 6;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+  opacity: 0;
 }
 
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    opacity: 0;
   }
   50% {
     opacity: 0.5;
   }
-  100% {
+  99% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+  100% {
+    display: none;
     opacity: 1;
   }
 }
@@ -43,13 +48,17 @@
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    opacity: 0;
   }
   50% {
     opacity: 0.5;
   }
-  100% {
+  99% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+  100% {
+    display: none;
     opacity: 1;
   }
 }

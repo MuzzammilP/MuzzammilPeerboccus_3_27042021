@@ -27,20 +27,26 @@ $color-dark: #353535;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	animation: spin 1s linear infinite;
+	animation: spin 1s linear 6;
 	animation-timing-function: ease;
+	opacity: 0;
 
 	@keyframes spin {
 		0% {
 			transform: rotate(0deg);
+			opacity: 0;
 		}
 
 		50% {
 			opacity: 0.5;
 		}
 
-		100% {
+		99% {
 			transform: rotate(360deg);
+		}
+
+		100% {
+			display: none;
 			opacity: 1;
 		}
 	}
