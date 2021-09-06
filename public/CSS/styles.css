@@ -4,6 +4,56 @@
   margin: 0px;
 }
 
+.load-spinner {
+  border: 10px solid #f7f7f7;
+  border-top: 10px solid #ff79da;
+  border-bottom: 10px solid #99e2d0;
+  border-left: 10px solid #9356dc;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
 .logo {
   margin-top: 20px;
   margin-bottom: 2px;

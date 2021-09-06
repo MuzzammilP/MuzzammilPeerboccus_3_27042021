@@ -13,6 +13,39 @@ $color-dark: #353535;
 	margin: 0px;
 }
 
+.load-spinner {
+	border: 10px solid $color-light-grey;
+	border-top: 10px solid $color-pink;
+	border-bottom: 10px solid $color-green;
+	border-left: 10px solid $color-pruple;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	animation: spin 1s linear infinite;
+	animation-timing-function: ease;
+
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		50% {
+			opacity: 0.5;
+		}
+
+		100% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+	}
+}
+
 .logo {
 	margin-top: 20px;
 	margin-bottom: 2px;
