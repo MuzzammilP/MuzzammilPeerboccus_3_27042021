@@ -11,6 +11,17 @@ $color-dark: #353535;
 
 .margin-body {
 	margin: 0px;
+	animation: back 1s linear 3;
+
+	@keyframes back {
+		0% {
+			opacity: 0.5;
+		}
+
+		100% {
+			opacity: 0.5;
+		}
+	}
 }
 
 .load-spinner {
