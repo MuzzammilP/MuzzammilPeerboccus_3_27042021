@@ -139,6 +139,25 @@
   }
 }
 
+.menu .menu-anim4 {
+  -webkit-animation: menu 1s;
+          animation: menu 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  opacity: 0;
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu-block {
   border-radius: 15px;
   -webkit-box-shadow: 2px 2px 30px lightgrey;

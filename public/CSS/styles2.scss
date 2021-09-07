@@ -124,6 +124,21 @@ $color-dark: #353535;
 		}
 	}
 
+	.menu-anim4 {
+		animation: menu 1s;
+		animation-fill-mode: forwards;
+		animation-delay: 0.7s;
+		opacity: 0;
+		@keyframes menu {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+	}
+
 	&-block {
 		border-radius: 15px;
 		box-shadow: 2px 2px 30px lightgrey;
