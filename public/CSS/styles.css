@@ -237,7 +237,6 @@
 }
 
 .restaurant-block:hover {
-  opacity: 0.7;
   -webkit-box-shadow: 2px 2px 8px grey;
           box-shadow: 2px 2px 8px grey;
 }
@@ -271,9 +270,27 @@
   margin-bottom: 0px;
 }
 
-.restaurant-block_main .fa-heart {
-  margin-right: 30px;
+.restaurant-block_main .fas.fa-heart {
   font-size: 29px;
+  position: absolute;
+  left: 82%;
+  display: block;
+  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+
+.restaurant-block_main .fas.fa-heart:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.restaurant-block_main .far.fa-heart {
+  font-size: 29px;
+  position: absolute;
+  left: 82%;
 }
 
 .restaurant-block_title {
