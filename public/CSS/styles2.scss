@@ -65,13 +65,24 @@ $color-dark: #353535;
 		display: flex;
 		justify-content: space-between;
 
-		.fa-heart {
+		.far.fa-heart {
 			font-size: 24px;
 			position: absolute;
 			right: 8%;
+			opacity: 1;
+			&:hover {
+				opacity: 0;
+			}
 		}
 
 		.fas.fa-heart {
+			font-size: 24px;
+			position: absolute;
+			right: 8%;
+			display: block;
+			background: -webkit-linear-gradient($color-pink, $color-pruple);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 			opacity: 0;
 			&:hover {
 				opacity: 1;
