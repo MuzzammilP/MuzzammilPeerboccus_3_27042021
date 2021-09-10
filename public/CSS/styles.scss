@@ -321,6 +321,18 @@ $color-dark: #353535;
 			}
 		}
 	}
+
+	.restaurant-block_main {
+		.far.fa-heart {
+			position: relative;
+			left: auto;
+		}
+
+		.fas.fa-heart {
+			position: relative;
+			left: auto;
+		}
+	}
 }
 
 @media screen and (min-width: 1024px) {

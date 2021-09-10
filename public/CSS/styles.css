@@ -359,6 +359,14 @@
     margin-left: 36%;
     right: auto;
   }
+  .restaurant-block_main .far.fa-heart {
+    position: relative;
+    left: auto;
+  }
+  .restaurant-block_main .fas.fa-heart {
+    position: relative;
+    left: auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {

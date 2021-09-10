@@ -262,6 +262,11 @@
   margin-right: 9px;
 }
 
+.footer-list_style .footer-list_contact {
+  color: white;
+  text-decoration: none;
+}
+
 .footer .footer-logo {
   width: 30%;
   margin-left: 20px;
