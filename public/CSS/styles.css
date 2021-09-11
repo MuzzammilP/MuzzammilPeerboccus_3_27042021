@@ -274,27 +274,96 @@
   margin-bottom: 0px;
 }
 
-.restaurant-block_main .fas.fa-heart {
+.restaurant-block_main .fas.fa-heart.heart1 {
   font-size: 29px;
-  position: absolute;
-  left: 82%;
   display: block;
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
+  position: absolute;
+  right: 10%;
 }
 
-.restaurant-block_main .fas.fa-heart:hover {
+.restaurant-block_main .fas.fa-heart.heart1:hover {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.restaurant-block_main .far.fa-heart {
+.restaurant-block_main .far.fa-heart.heart1 {
   font-size: 29px;
   position: absolute;
-  left: 82%;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart2 {
+  font-size: 29px;
+  display: block;
+  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart2:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.restaurant-block_main .far.fa-heart.heart2 {
+  font-size: 29px;
+  position: absolute;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart3 {
+  font-size: 29px;
+  display: block;
+  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart3:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.restaurant-block_main .far.fa-heart.heart3 {
+  font-size: 29px;
+  position: absolute;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart4 {
+  font-size: 29px;
+  display: block;
+  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.restaurant-block_main .fas.fa-heart.heart4:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.restaurant-block_main .far.fa-heart.heart4 {
+  font-size: 29px;
+  position: absolute;
+  right: 10%;
 }
 
 .restaurant-block_title {
@@ -363,13 +432,37 @@
     margin-left: 36%;
     right: auto;
   }
-  .restaurant-block_main .far.fa-heart {
-    position: relative;
-    left: auto;
+  .restaurant-block_main .fas.fa-heart.heart1 {
+    position: absolute;
+    right: 54%;
   }
-  .restaurant-block_main .fas.fa-heart {
-    position: relative;
-    left: auto;
+  .restaurant-block_main .far.fa-heart.heart1 {
+    position: absolute;
+    right: 54%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart2 {
+    position: absolute;
+    right: 5%;
+  }
+  .restaurant-block_main .far.fa-heart.heart2 {
+    position: absolute;
+    right: 5%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart3 {
+    position: absolute;
+    right: 54%;
+  }
+  .restaurant-block_main .far.fa-heart.heart3 {
+    position: absolute;
+    right: 54%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart4 {
+    position: absolute;
+    right: 5%;
+  }
+  .restaurant-block_main .far.fa-heart.heart4 {
+    position: absolute;
+    right: 5%;
   }
 }
 

@@ -237,25 +237,88 @@ $color-dark: #353535;
 			font-family: "Roboto", sans-serif;
 			margin-bottom: 0px;
 
-			.fas.fa-heart {
+			.fas.fa-heart.heart1 {
 				font-size: 29px;
-				position: absolute;
-				left: 82%;
 				display: block;
 				background: -webkit-linear-gradient($color-pink, $color-pruple);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 				opacity: 0;
+				position: absolute;
+				right: 10%;
 				&:hover {
 					opacity: 1;
 					transition: 0.5s;
 				}
 			}
 
-			.far.fa-heart {
+			.far.fa-heart.heart1 {
 				font-size: 29px;
 				position: absolute;
-				left: 82%;
+				right: 10%;
+			}
+
+			.fas.fa-heart.heart2 {
+				font-size: 29px;
+				display: block;
+				background: -webkit-linear-gradient($color-pink, $color-pruple);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				opacity: 0;
+				position: absolute;
+				right: 10%;
+				&:hover {
+					opacity: 1;
+					transition: 0.5s;
+				}
+			}
+
+			.far.fa-heart.heart2 {
+				font-size: 29px;
+				position: absolute;
+				right: 10%;
+			}
+
+			.fas.fa-heart.heart3 {
+				font-size: 29px;
+				display: block;
+				background: -webkit-linear-gradient($color-pink, $color-pruple);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				opacity: 0;
+				position: absolute;
+				right: 10%;
+				&:hover {
+					opacity: 1;
+					transition: 0.5s;
+				}
+			}
+
+			.far.fa-heart.heart3 {
+				font-size: 29px;
+				position: absolute;
+				right: 10%;
+			}
+
+			.fas.fa-heart.heart4 {
+				font-size: 29px;
+				display: block;
+				background: -webkit-linear-gradient($color-pink, $color-pruple);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				opacity: 0;
+				position: absolute;
+				right: 10%;
+				&:hover {
+					opacity: 1;
+					transition: 0.5s;
+				}
+			}
+
+			.far.fa-heart.heart4 {
+				font-size: 29px;
+				position: absolute;
+				right: 10%;
 			}
 		}
 
@@ -325,14 +388,44 @@ $color-dark: #353535;
 	}
 
 	.restaurant-block_main {
-		.far.fa-heart {
-			position: relative;
-			left: auto;
+		.fas.fa-heart.heart1 {
+			position: absolute;
+			right: 54%;
 		}
 
-		.fas.fa-heart {
-			position: relative;
-			left: auto;
+		.far.fa-heart.heart1 {
+			position: absolute;
+			right: 54%;
+		}
+
+		.fas.fa-heart.heart2 {
+			position: absolute;
+			right: 5%;
+		}
+
+		.far.fa-heart.heart2 {
+			position: absolute;
+			right: 5%;
+		}
+
+		.fas.fa-heart.heart3 {
+			position: absolute;
+			right: 54%;
+		}
+
+		.far.fa-heart.heart3 {
+			position: absolute;
+			right: 54%;
+		}
+
+		.fas.fa-heart.heart4 {
+			position: absolute;
+			right: 5%;
+		}
+
+		.far.fa-heart.heart4 {
+			position: absolute;
+			right: 5%;
 		}
 	}
 }
