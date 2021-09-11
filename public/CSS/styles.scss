@@ -136,7 +136,7 @@ $color-dark: #353535;
 	display: block;
 	text-align: center;
 
-	.navi-form {
+	&-form {
 		background-color: $color-light-grey;
 		margin-bottom: 14px;
 		padding: 17px;
@@ -188,8 +188,6 @@ $color-dark: #353535;
 	background-color: $color-dark-grey;
 	margin-top: 65px;
 	padding-bottom: 29px;
-	max-width: 1024px;
-	margin: auto;
 
 	.restaurant-title {
 		padding-top: 50px;
@@ -461,11 +459,17 @@ $color-dark: #353535;
 		border-top-left-radius: 50px;
 		border-top-right-radius: 50px;
 
-		.restaurant-block {
-			margin-left: 21px;
+		.restaurant-title {
+			margin-left: 33px;
+		}
 
-			.restaurant-block_news {
-				margin-left: 393px;
+		.restaurant-allblock {
+			display: flex;
+			justify-content: center;
+			margin-right: 15px;
+
+			.restaurant-block {
+				margin-left: 21px;
 			}
 		}
 	}
@@ -473,6 +477,48 @@ $color-dark: #353535;
 	.footer {
 		.footer-logo {
 			width: 20%;
+		}
+	}
+
+	.restaurant-block_main {
+		.fas.fa-heart.heart1 {
+			position: absolute;
+			right: 53%;
+		}
+
+		.far.fa-heart.heart1 {
+			position: absolute;
+			right: 53%;
+		}
+
+		.fas.fa-heart.heart2 {
+			position: absolute;
+			right: 4%;
+		}
+
+		.far.fa-heart.heart2 {
+			position: absolute;
+			right: 4%;
+		}
+
+		.fas.fa-heart.heart3 {
+			position: absolute;
+			right: 53%;
+		}
+
+		.far.fa-heart.heart3 {
+			position: absolute;
+			right: 53%;
+		}
+
+		.fas.fa-heart.heart4 {
+			position: absolute;
+			right: 4%;
+		}
+
+		.far.fa-heart.heart4 {
+			position: absolute;
+			right: 4%;
 		}
 	}
 }

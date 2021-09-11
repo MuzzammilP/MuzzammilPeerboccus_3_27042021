@@ -161,7 +161,7 @@
   text-align: center;
 }
 
-.navi .navi-form {
+.navi-form {
   background-color: #f7f7f7;
   margin-bottom: 14px;
   padding: 17px;
@@ -173,13 +173,13 @@
   margin-right: 16px;
 }
 
-.navi .navi-form:hover {
+.navi-form:hover {
   opacity: 0.7;
   -webkit-box-shadow: 2px 2px 8px grey;
           box-shadow: 2px 2px 8px grey;
 }
 
-.navi .navi-form_number {
+.navi-form_number {
   position: absolute;
   left: 8%;
   background-color: #9356dc;
@@ -190,21 +190,21 @@
   font-size: 13px;
 }
 
-.navi .navi-form .fa-mobile-alt {
+.navi-form .fa-mobile-alt {
   margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
-.navi .navi-form .fa-list-ul {
+.navi-form .fa-list-ul {
   margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
   color: grey;
 }
 
-.navi .navi-form .fa-store {
+.navi-form .fa-store {
   margin-left: -10%;
   margin-right: 10%;
   font-size: 21px;
@@ -215,8 +215,6 @@
   background-color: #ededed;
   margin-top: 65px;
   padding-bottom: 29px;
-  max-width: 1024px;
-  margin: auto;
 }
 
 .restaurant .restaurant-title {
@@ -493,14 +491,55 @@
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
   }
-  .restaurant .restaurant-block {
-    margin-left: 21px;
+  .restaurant .restaurant-title {
+    margin-left: 33px;
   }
-  .restaurant .restaurant-block .restaurant-block_news {
-    margin-left: 393px;
+  .restaurant .restaurant-allblock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 15px;
+  }
+  .restaurant .restaurant-allblock .restaurant-block {
+    margin-left: 21px;
   }
   .footer .footer-logo {
     width: 20%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart1 {
+    position: absolute;
+    right: 53%;
+  }
+  .restaurant-block_main .far.fa-heart.heart1 {
+    position: absolute;
+    right: 53%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart2 {
+    position: absolute;
+    right: 4%;
+  }
+  .restaurant-block_main .far.fa-heart.heart2 {
+    position: absolute;
+    right: 4%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart3 {
+    position: absolute;
+    right: 53%;
+  }
+  .restaurant-block_main .far.fa-heart.heart3 {
+    position: absolute;
+    right: 53%;
+  }
+  .restaurant-block_main .fas.fa-heart.heart4 {
+    position: absolute;
+    right: 4%;
+  }
+  .restaurant-block_main .far.fa-heart.heart4 {
+    position: absolute;
+    right: 4%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
