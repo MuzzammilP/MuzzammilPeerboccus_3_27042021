@@ -70,6 +70,8 @@
 
 .menu-title .far.fa-heart:hover {
   opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .menu-title .fas.fa-heart {
