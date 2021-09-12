@@ -241,9 +241,9 @@ $color-dark: #353535;
 				background: -webkit-linear-gradient($color-pink, $color-pruple);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
-				opacity: 0;
 				position: absolute;
 				right: 10%;
+				opacity: 0;
 				&:hover {
 					opacity: 1;
 					transition: 0.5s;

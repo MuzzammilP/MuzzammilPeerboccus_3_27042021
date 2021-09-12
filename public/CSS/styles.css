@@ -278,9 +278,9 @@
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0;
   position: absolute;
   right: 10%;
+  opacity: 0;
 }
 
 .restaurant-block_main .fas.fa-heart.heart1:hover {
