@@ -303,6 +303,30 @@ $color-dark: #353535;
 					}
 				}
 			}
+			.title-bold {
+				-webkit-animation: slide-title 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+				animation: slide-title 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+				@-webkit-keyframes slide-title {
+					0% {
+						-webkit-transform: translateX(0);
+						transform: translateX(0);
+					}
+					100% {
+						-webkit-transform: translateX(-50px);
+						transform: translateX(-50px);
+					}
+				}
+				@keyframes slide-title {
+					0% {
+						-webkit-transform: translateX(0);
+						transform: translateX(0);
+					}
+					100% {
+						-webkit-transform: translateX(-50px);
+						transform: translateX(-50px);
+					}
+				}
+			}
 		}
 
 		&_title {
