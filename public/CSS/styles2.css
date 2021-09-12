@@ -116,6 +116,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0;
 }
 
 .menu .checkbox .fa-check-circle {
