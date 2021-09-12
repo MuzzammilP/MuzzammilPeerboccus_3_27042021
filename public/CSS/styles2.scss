@@ -153,10 +153,10 @@ $color-dark: #353535;
 
 	.menu-anim2 {
 		animation-fill-mode: forwards;
-		animation-delay: 0.3s;
 		opacity: 0;
 		-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 		animation: slide-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+		animation-delay: 0.3s;
 		@-webkit-keyframes slide-top {
 			0% {
 				-webkit-transform: translateY(0);
@@ -185,10 +185,10 @@ $color-dark: #353535;
 
 	.menu-anim3 {
 		animation-fill-mode: forwards;
-		animation-delay: 0.5s;
 		opacity: 0;
 		-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 		animation: slide-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+		animation-delay: 0.5s;
 		@-webkit-keyframes slide-top {
 			0% {
 				-webkit-transform: translateY(0);
@@ -217,10 +217,10 @@ $color-dark: #353535;
 
 	.menu-anim4 {
 		animation-fill-mode: forwards;
-		animation-delay: 0.7s;
 		opacity: 0;
 		-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 		animation: slide-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+		animation-delay: 0.7s;
 		@-webkit-keyframes slide-top {
 			0% {
 				-webkit-transform: translateY(0);
