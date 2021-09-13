@@ -284,9 +284,28 @@
 }
 
 .restaurant-block_main .fas.fa-heart.heart1:hover {
-  opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-animation: empty 0.5s;
+          animation: empty 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes empty {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes empty {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .restaurant-block_main .far.fa-heart.heart1 {
@@ -301,15 +320,25 @@
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0;
   position: absolute;
   right: 10%;
+  opacity: 0;
 }
 
 .restaurant-block_main .fas.fa-heart.heart2:hover {
-  opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-animation: empty 0.5s;
+          animation: empty 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes empty {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .restaurant-block_main .far.fa-heart.heart2 {
@@ -324,15 +353,25 @@
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0;
   position: absolute;
   right: 10%;
+  opacity: 0;
 }
 
 .restaurant-block_main .fas.fa-heart.heart3:hover {
-  opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-animation: empty 0.5s;
+          animation: empty 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes empty {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .restaurant-block_main .far.fa-heart.heart3 {
@@ -347,15 +386,25 @@
   background: -webkit-linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0;
   position: absolute;
   right: 10%;
+  opacity: 0;
 }
 
 .restaurant-block_main .fas.fa-heart.heart4:hover {
-  opacity: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-animation: empty 0.5s;
+          animation: empty 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes empty {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .restaurant-block_main .far.fa-heart.heart4 {
