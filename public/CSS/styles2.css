@@ -378,6 +378,9 @@
   padding-top: 13px;
   margin-left: 12px;
   font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .menu-block_title2 {
@@ -393,10 +396,17 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .menu-block_title2 .title-bold {
   font-family: "Roboto", sans-serif;
+}
+
+.overflow {
+  width: 200px;
 }
 
 .btn {
