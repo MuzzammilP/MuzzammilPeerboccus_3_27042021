@@ -478,11 +478,12 @@ $color-dark: #353535;
 		display: flex;
 		.dim-block {
 			display: flex;
-			width: 71%;
+			flex-wrap: wrap;
 		}
 
 		.menu-block {
 			width: 310px;
+			margin-top: 16px;
 		}
 	}
 

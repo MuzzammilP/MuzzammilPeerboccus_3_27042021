@@ -513,10 +513,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 71%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .menu-section_form .menu-block {
     width: 310px;
+    margin-top: 16px;
   }
   .btn {
     margin-top: 9%;
