@@ -359,6 +359,7 @@
   100% {
     -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
+    padding-left: 30px;
   }
 }
 
@@ -370,6 +371,7 @@
   100% {
     -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
+    padding-left: 60px;
   }
 }
 
@@ -378,6 +380,9 @@
   padding-top: 13px;
   margin-left: 12px;
   font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .menu-block_title2 {
@@ -393,6 +398,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.menu-block_title2 .overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .menu-block_title2 .title-bold {

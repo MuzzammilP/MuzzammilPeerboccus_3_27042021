@@ -328,6 +328,7 @@ $color-dark: #353535;
 					100% {
 						-webkit-transform: translateX(-50px);
 						transform: translateX(-50px);
+						padding-left: 30px;
 					}
 				}
 				@keyframes slide-title {
@@ -338,6 +339,7 @@ $color-dark: #353535;
 					100% {
 						-webkit-transform: translateX(-50px);
 						transform: translateX(-50px);
+						padding-left: 60px;
 					}
 				}
 			}
@@ -348,6 +350,9 @@ $color-dark: #353535;
 			padding-top: 13px;
 			margin-left: 12px;
 			font-family: "Roboto", sans-serif;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 
 		&_title2 {
@@ -359,6 +364,12 @@ $color-dark: #353535;
 			margin-top: -12px;
 			display: flex;
 			justify-content: space-between;
+
+			.overflow {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
 
 			.title-bold {
 				font-family: "Roboto", sans-serif;
