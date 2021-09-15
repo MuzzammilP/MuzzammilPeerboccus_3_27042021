@@ -476,6 +476,10 @@ $color-dark: #353535;
 
 	.menu-section_form {
 		display: flex;
+		.dim-block {
+			display: flex;
+			width: 71%;
+		}
 
 		.menu-block {
 			width: 31%;

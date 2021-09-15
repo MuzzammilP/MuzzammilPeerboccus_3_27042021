@@ -509,6 +509,12 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .menu-section_form .dim-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 71%;
+  }
   .menu-section_form .menu-block {
     width: 31%;
   }
