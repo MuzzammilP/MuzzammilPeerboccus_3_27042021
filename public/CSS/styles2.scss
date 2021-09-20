@@ -353,6 +353,15 @@ $color-dark: #353535;
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
+			display: flex;
+			.overflow {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.opa {
+				opacity: 0;
+			}
 		}
 
 		&_title2 {
